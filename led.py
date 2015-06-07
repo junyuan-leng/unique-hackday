@@ -11,9 +11,9 @@ GPIO.setup(OUTPUT_PIN, GPIO.OUT)
 GPIO.output(OUTPUT_PIN, GPIO.HIGH)
 
 for i in range(20):
-		GPIO.output(OUTPUT_PIN, GPIO.LOW)
-		time.sleep(1)
-		GPIO.output(OUTPUT_PIN, GPIO.HIGH)
-		time.sleep(1)
+	GPIO.output(OUTPUT_PIN, GPIO.LOW)
+	time.sleep(1)
+	GPIO.output(OUTPUT_PIN, GPIO.HIGH)
+	time.sleep(1)
 
 GPIO.cleanup()
